@@ -58,10 +58,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/etc/camera/gc2385_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gc2385_chromatix.xml \
     vendor/realme/r5x/proprietary/vendor/etc/camera/hi846_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hi846_sunny_chromatix.xml \
     vendor/realme/r5x/proprietary/vendor/etc/camera/imx386_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx386_qtech_chromatix.xml \
-    vendor/realme/r5x/proprietary/vendor/etc/camera/imx386_qtech_monets_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx386_qtech_monets_chromatix.xml \
     vendor/realme/r5x/proprietary/vendor/etc/camera/ov/arc_golden.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov/arc_golden.bin \
     vendor/realme/r5x/proprietary/vendor/etc/camera/ov02a1b_holitech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov02a1b_holitech_chromatix.xml \
-    vendor/realme/r5x/proprietary/vendor/etc/camera/ov12a10_bear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_bear_chromatix.xml \
     vendor/realme/r5x/proprietary/vendor/etc/camera/ov12a10_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_chromatix.xml \
     vendor/realme/r5x/proprietary/vendor/etc/camera/ov8856_shinetech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8856_shinetech_chromatix.xml \
     vendor/realme/r5x/proprietary/vendor/etc/camera/s5k3l6_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l6_ofilm_chromatix.xml \
@@ -142,9 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/realme/r5x/proprietary/vendor/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml \
     vendor/realme/r5x/proprietary/vendor/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_panel.xml \
-    vendor/realme/r5x/proprietary/vendor/etc/qdcm_calib_data_nt36672_truly_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672_truly_fhd_video_mode_dsi_panel.xml \
-    vendor/realme/r5x/proprietary/vendor/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml \
-    vendor/realme/r5x/proprietary/vendor/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml \
     vendor/realme/r5x/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base.policy \
     vendor/realme/r5x/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext.policy \
     vendor/realme/r5x/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
@@ -211,22 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/etc/sensors/config/tsl2540_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tsl2540_0.json \
     vendor/realme/r5x/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/realme/r5x/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_nfcon.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_nfcon.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_chr.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_chr.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_cui.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_cui.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_ese_3.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_ese_aclog.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_aclog.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_ese_cplc.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_cplc.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_ese_fabkey.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_fabkey.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_ese_free.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_free.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_ese_keyset.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_keyset.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_ese_sn.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sn.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_ndi.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ndi.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_pcv.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_pcv.pnscr \
-    vendor/realme/r5x/proprietary/vendor/etc/sn100u_pnx_sst.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_sst.pnscr \
     vendor/realme/r5x/proprietary/vendor/etc/thermal-engine-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-high.conf \
     vendor/realme/r5x/proprietary/vendor/etc/thermal-engine-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-map.conf \
     vendor/realme/r5x/proprietary/vendor/etc/thermal-engine-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-nolimits.conf \
@@ -237,23 +216,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/firmware/a610_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a610_zap.b02 \
     vendor/realme/r5x/proprietary/vendor/firmware/a610_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a610_zap.elf \
     vendor/realme/r5x/proprietary/vendor/firmware/a610_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a610_zap.mdt \
-    vendor/realme/r5x/proprietary/vendor/firmware/a612_rgmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_rgmu.bin \
-    vendor/realme/r5x/proprietary/vendor/firmware/a618_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a618_gmu.bin \
-    vendor/realme/r5x/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
     vendor/realme/r5x/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/a640_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_gmu.bin \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_12_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_1.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/realme/r5x/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/realme/r5x/proprietary/vendor/firmware/egista.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b00 \
     vendor/realme/r5x/proprietary/vendor/firmware/egista.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b01 \
     vendor/realme/r5x/proprietary/vendor/firmware/egista.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b02 \
@@ -279,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/realme/r5x/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/realme/r5x/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/realme/r5x/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19631/RA105A0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/RA105A0.bin \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19631/RA105A004.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/RA105A004.ini \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19631/ilitek_fw_xl_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/ilitek_fw_xl_signed.bin \
@@ -312,121 +275,45 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
-    com.qualcomm.qti.dpm.api@1.0_vendor \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
-    audio.primary.trinket \
-    vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
-    vendor.qti.hardware.capabilityconfigstore@1.0-impl \
-    vendor.qti.hardware.sensorscalibrate@1.0-impl \
     vulkan.adreno \
     libC2D2 \
     libCB \
     libOpenCL \
     libOppoAPSMemMgr \
     libOppoAlgoClient \
-    libQSEEComAPI \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
     libadiertac \
     libadreno_utils \
-    libadsp_default_listener \
     libadsprpc \
-    libalgo.public \
-    libalipay_factory \
-    libarcsoft_hdr_denoise_api \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_low_light_hdr \
-    libarcsoft_smart_denoise \
     libaudcal \
-    libaudioEngineerTest \
-    libaudio_log_utils \
-    libaudioalsa \
-    libaudioconfigstore \
-    libaudioparsers \
-    libbase64 \
     libc2d30_bltlib \
-    libcdsp_default_listener \
     libcdsprpc \
     libdiag \
-    libdsutils \
     libfastcvdsp_stub \
     libfastcvopt \
     libgsl \
     libhypnusclient \
-    libidl \
     libllvm-glnext \
     libllvm-qcom \
-    libmdmdetect \
-    libmdsprpc \
-    libminkdescriptor \
-    libmmcamera2_frame_algorithm \
-    libmmcamera2_is \
-    libmmcamera2_q3a_core \
-    libmmcamera2_stats_algorithm \
-    libmmcamera2_stats_lib \
     libmmcamera_dbg \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
     libmmcamera_tintless_algo \
     libmmcamera_tintless_bg_pca_algo \
-    libmmosal \
-    libmpbase \
-    libnative-api \
-    liboppo_log_print \
-    liboppoalgolib \
-    libqcbor \
-    libqcci_legacy \
-    libqdi \
-    libqdp \
-    libqmi \
-    libqmi_cci \
-    libqmi_client_helper \
-    libqmi_client_qmux \
-    libqmi_common_so \
-    libqmi_csi \
-    libqmi_encdec \
-    libqmi_legacy \
-    libqmiservices \
-    libqrtr \
     libqtigef \
-    librpmbengclient \
     libsdsprpc \
-    libsensorcal \
-    libsensorslog \
-    libsns_device_mode_stub \
-    libsns_fastRPC_util \
-    libsns_low_lat_stream_stub \
-    libsnsapi \
-    libsnsdiaglog \
-    libsoc_helper \
-    libsoc_helper_jni \
-    libssc \
-    libssc_default_listener \
     libthermalclient \
-    libvpphvx \
-    libvpplibrary \
-    sensors.ssc \
-    libasphere \
-    libqcbassboost \
-    libqcreverb \
-    libqcvirt \
     vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0 \
-    vendor.oppo.hardware.commondcs@1.0 \
     vendor.oppo.hardware.hypnus@1.0 \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.fingerprint@1.0 \
-    vendor.qti.hardware.mwqemadapter@1.0_vendor \
-    vendor.qti.hardware.sensorscalibrate@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
-    vendor.qti.hardware.vpp@1.3 \
     camera.trinket \
+    vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
     vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     imx386_PdafLibrary \
@@ -442,31 +329,12 @@ PRODUCT_PACKAGES += \
     libVDDualCameraBlurlessAPI \
     libVDPostureDetection \
     libVDSuperPhotoAPI \
-    libactuator_ad5816g \
-    libactuator_ad5823 \
-    libactuator_ak7345 \
-    libactuator_ak7371 \
-    libactuator_bu64244gwz \
-    libactuator_bu64297 \
-    libactuator_dw9714 \
-    libactuator_dw9716 \
     libactuator_dw9718s \
-    libactuator_dw9761b \
-    libactuator_dw9763 \
-    libactuator_dw9763b \
-    libactuator_dw9790a \
-    libactuator_dw9800 \
     libactuator_fp5516we2 \
-    libactuator_lc898122 \
-    libactuator_lc898212xd \
-    libactuator_lc898212xd_qc2002 \
-    libactuator_lc898217xc \
     libactuator_ov12a10_dw9718s \
-    libactuator_pseudo \
-    libactuator_rohm_bu64243gwz \
     libactuator_s5kgm1_fp5516we2_2nd \
     libadm \
-    libadpcmdec \
+    libalgo.public \
     libarc_sensor_adapter \
     libarcsoft_beautyshot \
     libarcsoft_beautyshot_lite_image \
@@ -476,26 +344,24 @@ PRODUCT_PACKAGES += \
     libarcsoft_dualcam_refocus_preview \
     libarcsoft_dualcam_refocus_right \
     libarcsoft_hdr_couple_api \
+    libarcsoft_hdr_denoise_api \
     libarcsoft_hdrplus_hvx_stub \
+    libarcsoft_high_dynamic_range \
     libarcsoft_high_dynamic_range_couple \
+    libarcsoft_low_light_hdr \
     libarcsoft_picauto \
+    libarcsoft_smart_denoise \
     libarcsoft_super_night_raw \
     libarcsoft_videostabilizer \
     libarcvs.dep \
     libarcvs \
     libavutil \
-    libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
     libblur_channel \
     libc++_shared \
     libcamera_core_hwi \
     libcapiv2svacnn \
     libcapiv2vop \
-    libchromatix_csidtg_common \
-    libchromatix_csidtg_cpp_preview \
-    libchromatix_csidtg_postproc \
-    libchromatix_csidtg_preview \
-    libchromatix_csidtg_zsl_preview \
     libchromatix_gc02m0_mono1_common \
     libchromatix_gc02m0_mono1_cpp_hfr_120 \
     libchromatix_gc02m0_mono1_cpp_hfr_60 \
@@ -515,70 +381,34 @@ PRODUCT_PACKAGES += \
     libchromatix_gc02m0_mono1_snapshot_isp \
     libchromatix_gc02m0_mono1_zsl_preview \
     libchromatix_gc02m0_mono1_zsl_video \
-    libchromatix_gc2375h_a3_default_preview \
-    libchromatix_gc2375h_a3_default_video \
-    libchromatix_gc2375h_a3_hfr_120 \
-    libchromatix_gc2375h_a3_hfr_60 \
-    libchromatix_gc2375h_a3_hfr_90 \
     libchromatix_gc2375h_common \
-    libchromatix_gc2375h_cpp_ds_chromatix \
-    libchromatix_gc2375h_cpp_hfr_120 \
-    libchromatix_gc2375h_cpp_hfr_60 \
-    libchromatix_gc2375h_cpp_hfr_90 \
     libchromatix_gc2375h_cpp_liveshot \
     libchromatix_gc2375h_cpp_liveshot_engineer \
     libchromatix_gc2375h_cpp_preview \
     libchromatix_gc2375h_cpp_preview_engineer \
     libchromatix_gc2375h_cpp_snapshot \
     libchromatix_gc2375h_cpp_snapshot_engineer \
-    libchromatix_gc2375h_cpp_us_chromatix \
     libchromatix_gc2375h_cpp_video \
     libchromatix_gc2375h_cpp_video_engineer \
-    libchromatix_gc2375h_cpp_video_full \
-    libchromatix_gc2375h_default_video \
-    libchromatix_gc2375h_hfr_120 \
-    libchromatix_gc2375h_hfr_60 \
-    libchromatix_gc2375h_hfr_90 \
-    libchromatix_gc2375h_liveshot \
     libchromatix_gc2375h_postproc \
-    libchromatix_gc2375h_preview \
     libchromatix_gc2375h_snapshot \
     libchromatix_gc2375h_snapshot_engineer \
-    libchromatix_gc2375h_video_full \
     libchromatix_gc2375h_zsl_preview \
     libchromatix_gc2375h_zsl_preview_engineer \
     libchromatix_gc2375h_zsl_video \
     libchromatix_gc2375h_zsl_video_engineer \
-    libchromatix_gc2385_a3_default_preview \
-    libchromatix_gc2385_a3_default_video \
-    libchromatix_gc2385_a3_hfr_120 \
-    libchromatix_gc2385_a3_hfr_60 \
-    libchromatix_gc2385_a3_hfr_90 \
     libchromatix_gc2385_common \
-    libchromatix_gc2385_cpp_ds_chromatix \
-    libchromatix_gc2385_cpp_hfr_120 \
-    libchromatix_gc2385_cpp_hfr_60 \
-    libchromatix_gc2385_cpp_hfr_90 \
     libchromatix_gc2385_cpp_liveshot \
     libchromatix_gc2385_cpp_liveshot_engineer \
     libchromatix_gc2385_cpp_preview \
     libchromatix_gc2385_cpp_preview_engineer \
     libchromatix_gc2385_cpp_snapshot \
     libchromatix_gc2385_cpp_snapshot_engineer \
-    libchromatix_gc2385_cpp_us_chromatix \
     libchromatix_gc2385_cpp_video \
     libchromatix_gc2385_cpp_video_engineer \
-    libchromatix_gc2385_cpp_video_full \
-    libchromatix_gc2385_default_video \
-    libchromatix_gc2385_hfr_120 \
-    libchromatix_gc2385_hfr_60 \
-    libchromatix_gc2385_hfr_90 \
-    libchromatix_gc2385_liveshot \
     libchromatix_gc2385_postproc \
-    libchromatix_gc2385_preview \
     libchromatix_gc2385_snapshot \
     libchromatix_gc2385_snapshot_engineer \
-    libchromatix_gc2385_video_full \
     libchromatix_gc2385_zsl_preview \
     libchromatix_gc2385_zsl_preview_engineer \
     libchromatix_gc2385_zsl_video \
@@ -587,17 +417,11 @@ PRODUCT_PACKAGES += \
     libchromatix_hi846_720p_sunny_cpp_video \
     libchromatix_hi846_sunny_a3_default_preview \
     libchromatix_hi846_sunny_a3_default_video \
-    libchromatix_hi846_sunny_a3_hfr_120 \
-    libchromatix_hi846_sunny_a3_hfr_60 \
-    libchromatix_hi846_sunny_a3_hfr_90 \
     libchromatix_hi846_sunny_common \
     libchromatix_hi846_sunny_common_engineer \
     libchromatix_hi846_sunny_common_night \
     libchromatix_hi846_sunny_common_portrait \
     libchromatix_hi846_sunny_cpp_ds_chromatix \
-    libchromatix_hi846_sunny_cpp_hfr_120 \
-    libchromatix_hi846_sunny_cpp_hfr_60 \
-    libchromatix_hi846_sunny_cpp_hfr_90 \
     libchromatix_hi846_sunny_cpp_liveshot \
     libchromatix_hi846_sunny_cpp_liveshot_engineer \
     libchromatix_hi846_sunny_cpp_liveshot_fb \
@@ -630,10 +454,6 @@ PRODUCT_PACKAGES += \
     libchromatix_hi846_sunny_default_video_fb \
     libchromatix_hi846_sunny_default_video_portrait \
     libchromatix_hi846_sunny_default_video_snight \
-    libchromatix_hi846_sunny_hfr_120 \
-    libchromatix_hi846_sunny_hfr_60 \
-    libchromatix_hi846_sunny_hfr_90 \
-    libchromatix_hi846_sunny_liveshot \
     libchromatix_hi846_sunny_postproc \
     libchromatix_hi846_sunny_preview \
     libchromatix_hi846_sunny_snapshot \
@@ -655,24 +475,16 @@ PRODUCT_PACKAGES += \
     libchromatix_imx386_qtech_1080p_video_cpp \
     libchromatix_imx386_qtech_3a_1080p_video \
     libchromatix_imx386_qtech_3a_4k_video \
-    libchromatix_imx386_qtech_3a_4k_video_engineer \
-    libchromatix_imx386_qtech_3a_default_preview_4ksize \
-    libchromatix_imx386_qtech_3a_default_preview_binning \
-    libchromatix_imx386_qtech_3a_default_video_4ksize \
-    libchromatix_imx386_qtech_3a_default_video_binning \
     libchromatix_imx386_qtech_3a_hfr120_video \
     libchromatix_imx386_qtech_3a_hfr240_video \
     libchromatix_imx386_qtech_3a_hfr60_video \
     libchromatix_imx386_qtech_3a_hfr90_video \
     libchromatix_imx386_qtech_3a_special_16_9_preview \
     libchromatix_imx386_qtech_3a_special_preview \
-    libchromatix_imx386_qtech_3a_wechat_preview \
     libchromatix_imx386_qtech_3a_zsl_preview \
-    libchromatix_imx386_qtech_3a_zsl_preview_3264x2448 \
     libchromatix_imx386_qtech_3a_zsl_preview_engineer \
     libchromatix_imx386_qtech_3a_zsl_preview_fb \
     libchromatix_imx386_qtech_3a_zsl_preview_full_portrait \
-    libchromatix_imx386_qtech_3a_zsl_preview_half_portrait \
     libchromatix_imx386_qtech_3a_zsl_preview_hdr \
     libchromatix_imx386_qtech_3a_zsl_preview_night \
     libchromatix_imx386_qtech_3a_zsl_preview_panorama \
@@ -681,55 +493,31 @@ PRODUCT_PACKAGES += \
     libchromatix_imx386_qtech_720p_video_cpp \
     libchromatix_imx386_qtech_common \
     libchromatix_imx386_qtech_common_engineer \
-    libchromatix_imx386_qtech_common_night \
-    libchromatix_imx386_qtech_common_panorama \
     libchromatix_imx386_qtech_common_special \
-    libchromatix_imx386_qtech_common_video \
     libchromatix_imx386_qtech_common_zzhdr \
     libchromatix_imx386_qtech_cpp_snapshot_downscale \
     libchromatix_imx386_qtech_cpp_snapshot_upscale \
-    libchromatix_imx386_qtech_default_video_4ksize_cpp \
-    libchromatix_imx386_qtech_default_video_binning_cpp \
     libchromatix_imx386_qtech_fast_video_cpp \
     libchromatix_imx386_qtech_hfr120_video_cpp \
     libchromatix_imx386_qtech_hfr240_video_cpp \
     libchromatix_imx386_qtech_hfr60_video_cpp \
     libchromatix_imx386_qtech_hfr90_video_cpp \
     libchromatix_imx386_qtech_isp_1080p_video \
-    libchromatix_imx386_qtech_isp_4k_video \
-    libchromatix_imx386_qtech_isp_default_binning \
-    libchromatix_imx386_qtech_isp_default_video_binning \
-    libchromatix_imx386_qtech_isp_hdr_snapshot \
     libchromatix_imx386_qtech_isp_hfr120_video \
     libchromatix_imx386_qtech_isp_hfr240_video \
     libchromatix_imx386_qtech_isp_hfr60_video \
     libchromatix_imx386_qtech_isp_hfr90_video \
-    libchromatix_imx386_qtech_isp_snapshot_3264x2448 \
-    libchromatix_imx386_qtech_isp_snapshot_3264x2448_17021 \
-    libchromatix_imx386_qtech_isp_snapshot_half_portrait \
     libchromatix_imx386_qtech_isp_special_snapshot \
     libchromatix_imx386_qtech_isp_video_engineer \
-    libchromatix_imx386_qtech_isp_zsl_preview \
     libchromatix_imx386_qtech_isp_zsl_preview_professional \
-    libchromatix_imx386_qtech_isp_zsl_preview_professional_17021 \
     libchromatix_imx386_qtech_isp_zsl_snapshot \
-    libchromatix_imx386_qtech_isp_zsl_snapshot_17021 \
     libchromatix_imx386_qtech_isp_zsl_snapshot_fb \
     libchromatix_imx386_qtech_isp_zsl_snapshot_full_portrait \
     libchromatix_imx386_qtech_isp_zsl_snapshot_night \
     libchromatix_imx386_qtech_isp_zsl_snapshot_panorama \
     libchromatix_imx386_qtech_isp_zsl_snapshot_professional \
-    libchromatix_imx386_qtech_isp_zsl_snapshot_professional_17021 \
     libchromatix_imx386_qtech_postproc \
-    libchromatix_imx386_qtech_preview_1080p_cpp \
-    libchromatix_imx386_qtech_preview_420p_cpp \
-    libchromatix_imx386_qtech_preview_4ksize_cpp \
-    libchromatix_imx386_qtech_preview_720p_cpp \
-    libchromatix_imx386_qtech_preview_binning_cpp \
     libchromatix_imx386_qtech_preview_cpp_engineer \
-    libchromatix_imx386_qtech_preview_wechat_cpp \
-    libchromatix_imx386_qtech_snapshot_1080p_cpp \
-    libchromatix_imx386_qtech_snapshot_binning_cpp \
     libchromatix_imx386_qtech_snapshot_cpp_engineer \
     libchromatix_imx386_qtech_special2_1080p_more_snapshot_cpp \
     libchromatix_imx386_qtech_special2_1080p_snapshot_cpp \
@@ -741,57 +529,33 @@ PRODUCT_PACKAGES += \
     libchromatix_imx386_qtech_special_1080p_snapshot_cpp \
     libchromatix_imx386_qtech_special_720p_more_snapshot_cpp \
     libchromatix_imx386_qtech_special_720p_snapshot_cpp \
-    libchromatix_imx386_qtech_special_more_snapshot_cpp \
-    libchromatix_imx386_qtech_special_snapshot_cpp \
     libchromatix_imx386_qtech_special_vga_more_snapshot_cpp \
     libchromatix_imx386_qtech_special_vga_snapshot_cpp \
     libchromatix_imx386_qtech_zoom_preview_cpp \
-    libchromatix_imx386_qtech_zoom_preview_cpp_17021 \
-    libchromatix_imx386_qtech_zsl_custom_3264x2448_cpp \
     libchromatix_imx386_qtech_zsl_custom_cpp \
     libchromatix_imx386_qtech_zsl_custom_cpp_full_portrait \
-    libchromatix_imx386_qtech_zsl_custom_cpp_half_portrait \
     libchromatix_imx386_qtech_zsl_face_cpp \
     libchromatix_imx386_qtech_zsl_face_cpp_full_portrait \
-    libchromatix_imx386_qtech_zsl_face_cpp_half_portrait \
     libchromatix_imx386_qtech_zsl_flash_cpp \
     libchromatix_imx386_qtech_zsl_less_cpp \
-    libchromatix_imx386_qtech_zsl_preview_3264x2448_cpp \
     libchromatix_imx386_qtech_zsl_preview_cpp \
     libchromatix_imx386_qtech_zsl_preview_cpp_full_portrait \
     libchromatix_imx386_qtech_zsl_preview_cpp_panorama \
     libchromatix_imx386_qtech_zsl_preview_fb_cpp \
-    libchromatix_imx386_qtech_zsl_preview_night_cpp \
     libchromatix_imx386_qtech_zsl_preview_professional_cpp \
-    libchromatix_imx386_qtech_zsl_snapshot_3264x2448_cpp \
     libchromatix_imx386_qtech_zsl_snapshot_cpp \
     libchromatix_imx386_qtech_zsl_snapshot_cpp_full_portrait \
-    libchromatix_imx386_qtech_zsl_snapshot_cpp_half_portrait \
     libchromatix_imx386_qtech_zsl_snapshot_cpp_hdr \
-    libchromatix_imx386_qtech_zsl_snapshot_cpp_hdr_face \
-    libchromatix_imx386_qtech_zsl_snapshot_cpp_panorama \
     libchromatix_imx386_qtech_zsl_snapshot_fb_cpp \
     libchromatix_imx386_qtech_zsl_snapshot_night_cpp \
     libchromatix_imx386_qtech_zsl_snapshot_professional_cpp \
-    libchromatix_imx386_qtech_zsl_snapshot_professional_cpp_17021 \
     libchromatix_imx386_qtech_zsl_zoom_cpp \
-    libchromatix_imx386_qtech_zsl_zoom_cpp_17021 \
-    libchromatix_ov02a1b_holitech_a3_hfr_120 \
-    libchromatix_ov02a1b_holitech_a3_hfr_60 \
-    libchromatix_ov02a1b_holitech_a3_hfr_90 \
     libchromatix_ov02a1b_holitech_common \
-    libchromatix_ov02a1b_holitech_cpp_hfr_120 \
-    libchromatix_ov02a1b_holitech_cpp_hfr_60 \
-    libchromatix_ov02a1b_holitech_cpp_hfr_90 \
     libchromatix_ov02a1b_holitech_cpp_liveshot \
     libchromatix_ov02a1b_holitech_cpp_preview \
     libchromatix_ov02a1b_holitech_cpp_snapshot \
     libchromatix_ov02a1b_holitech_cpp_video \
     libchromatix_ov02a1b_holitech_default_video \
-    libchromatix_ov02a1b_holitech_hfr_120 \
-    libchromatix_ov02a1b_holitech_hfr_60 \
-    libchromatix_ov02a1b_holitech_hfr_90 \
-    libchromatix_ov02a1b_holitech_liveshot \
     libchromatix_ov02a1b_holitech_postproc \
     libchromatix_ov02a1b_holitech_preview \
     libchromatix_ov02a1b_holitech_snapshot \
@@ -803,34 +567,7 @@ PRODUCT_PACKAGES += \
     libchromatix_ov12a10_3a_zsl_preview_portrait \
     libchromatix_ov12a10_3a_zsl_preview_professional \
     libchromatix_ov12a10_3a_zsl_preview_supernight \
-    libchromatix_ov12a10_4k_preview_3a \
     libchromatix_ov12a10_4k_video_3a \
-    libchromatix_ov12a10_bear_4k_preview_3a \
-    libchromatix_ov12a10_bear_4k_video_3a \
-    libchromatix_ov12a10_bear_common \
-    libchromatix_ov12a10_bear_cpp_hfr_120 \
-    libchromatix_ov12a10_bear_cpp_hfr_60 \
-    libchromatix_ov12a10_bear_cpp_hfr_90 \
-    libchromatix_ov12a10_bear_cpp_liveshot \
-    libchromatix_ov12a10_bear_cpp_preview \
-    libchromatix_ov12a10_bear_cpp_snapshot \
-    libchromatix_ov12a10_bear_cpp_video \
-    libchromatix_ov12a10_bear_cpp_video_4k \
-    libchromatix_ov12a10_bear_default_preview_3a \
-    libchromatix_ov12a10_bear_default_video \
-    libchromatix_ov12a10_bear_default_video_3a \
-    libchromatix_ov12a10_bear_default_video_4k \
-    libchromatix_ov12a10_bear_hfr_120 \
-    libchromatix_ov12a10_bear_hfr_120_3a \
-    libchromatix_ov12a10_bear_hfr_60 \
-    libchromatix_ov12a10_bear_hfr_60_3a \
-    libchromatix_ov12a10_bear_hfr_90 \
-    libchromatix_ov12a10_bear_hfr_90_3a \
-    libchromatix_ov12a10_bear_postproc \
-    libchromatix_ov12a10_bear_preview \
-    libchromatix_ov12a10_bear_snapshot \
-    libchromatix_ov12a10_bear_zsl_preview_3a \
-    libchromatix_ov12a10_bear_zsl_video_3a \
     libchromatix_ov12a10_common \
     libchromatix_ov12a10_common_binning \
     libchromatix_ov12a10_common_engineer \
@@ -857,7 +594,6 @@ PRODUCT_PACKAGES += \
     libchromatix_ov12a10_hfr_90 \
     libchromatix_ov12a10_hfr_90_3a \
     libchromatix_ov12a10_isp_video_engineer \
-    libchromatix_ov12a10_isp_zsl_preview \
     libchromatix_ov12a10_isp_zsl_preview_professional \
     libchromatix_ov12a10_isp_zsl_snapshot \
     libchromatix_ov12a10_isp_zsl_snapshot_panorama \
@@ -874,8 +610,6 @@ PRODUCT_PACKAGES += \
     libchromatix_ov12a10_preview_720p_16_9_cpp \
     libchromatix_ov12a10_preview_720p_cpp \
     libchromatix_ov12a10_preview_cpp_engineer \
-    libchromatix_ov12a10_preview_wechat_cpp \
-    libchromatix_ov12a10_snapshot \
     libchromatix_ov12a10_zoom_preview_cpp \
     libchromatix_ov12a10_zsl_custom_cpp_portrait \
     libchromatix_ov12a10_zsl_face_cpp \
@@ -890,7 +624,6 @@ PRODUCT_PACKAGES += \
     libchromatix_ov12a10_zsl_preview_cpp \
     libchromatix_ov12a10_zsl_preview_cpp_panorama \
     libchromatix_ov12a10_zsl_preview_cpp_portrait \
-    libchromatix_ov12a10_zsl_preview_cpp_supernight \
     libchromatix_ov12a10_zsl_preview_engineer_3a \
     libchromatix_ov12a10_zsl_preview_professional_cpp \
     libchromatix_ov12a10_zsl_snapshot_cpp \
@@ -902,35 +635,7 @@ PRODUCT_PACKAGES += \
     libchromatix_ov12a10_zsl_snapshot_cpp_portrait \
     libchromatix_ov12a10_zsl_snapshot_cpp_supernight \
     libchromatix_ov12a10_zsl_snapshot_professional_cpp \
-    libchromatix_ov12a10_zsl_video_3a \
     libchromatix_ov12a10_zsl_zoom_cpp \
-    libchromatix_ov8856_bear_3a_default_preview \
-    libchromatix_ov8856_bear_3a_default_video \
-    libchromatix_ov8856_bear_3a_hfr_120 \
-    libchromatix_ov8856_bear_3a_hfr_60 \
-    libchromatix_ov8856_bear_3a_hfr_90 \
-    libchromatix_ov8856_bear_common \
-    libchromatix_ov8856_bear_cpp_ds_chromatix \
-    libchromatix_ov8856_bear_cpp_hfr_120 \
-    libchromatix_ov8856_bear_cpp_hfr_60 \
-    libchromatix_ov8856_bear_cpp_hfr_90 \
-    libchromatix_ov8856_bear_cpp_liveshot \
-    libchromatix_ov8856_bear_cpp_preview \
-    libchromatix_ov8856_bear_cpp_snapshot \
-    libchromatix_ov8856_bear_cpp_us_chromatix \
-    libchromatix_ov8856_bear_cpp_video \
-    libchromatix_ov8856_bear_default_video \
-    libchromatix_ov8856_bear_hfr_120 \
-    libchromatix_ov8856_bear_hfr_60 \
-    libchromatix_ov8856_bear_hfr_90 \
-    libchromatix_ov8856_bear_liveshot \
-    libchromatix_ov8856_bear_postproc \
-    libchromatix_ov8856_bear_preview \
-    libchromatix_ov8856_bear_snapshot \
-    libchromatix_ov8856_bear_zsl_preview \
-    libchromatix_ov8856_bear_zsl_video \
-    libchromatix_ov8856_shinetech_a3_default_preview \
-    libchromatix_ov8856_shinetech_a3_default_video \
     libchromatix_ov8856_shinetech_a3_engineer \
     libchromatix_ov8856_shinetech_a3_hfr_60 \
     libchromatix_ov8856_shinetech_a3_hfr_90 \
@@ -962,11 +667,8 @@ PRODUCT_PACKAGES += \
     libchromatix_ov8856_shinetech_hdr_snapshot \
     libchromatix_ov8856_shinetech_hfr_60 \
     libchromatix_ov8856_shinetech_hfr_90 \
-    libchromatix_ov8856_shinetech_liveshot \
     libchromatix_ov8856_shinetech_postproc \
-    libchromatix_ov8856_shinetech_preview \
     libchromatix_ov8856_shinetech_snapshot \
-    libchromatix_ov8856_shinetech_snapshot_fb \
     libchromatix_ov8856_shinetech_snapshot_portrait \
     libchromatix_ov8856_shinetech_snight_snapshot \
     libchromatix_ov8856_shinetech_zsl_hdr_preview \
@@ -977,235 +679,129 @@ PRODUCT_PACKAGES += \
     libchromatix_ov8856_shinetech_zsl_video \
     libchromatix_s5k3l6_ofilm_1080p_video_cpp \
     libchromatix_s5k3l6_ofilm_3a_1080p_video \
-    libchromatix_s5k3l6_ofilm_3a_4k_video \
-    libchromatix_s5k3l6_ofilm_3a_4k_video_engineer \
     libchromatix_s5k3l6_ofilm_3a_VGA_video \
-    libchromatix_s5k3l6_ofilm_3a_default_preview_4ksize \
-    libchromatix_s5k3l6_ofilm_3a_default_preview_binning \
-    libchromatix_s5k3l6_ofilm_3a_default_video_4ksize \
-    libchromatix_s5k3l6_ofilm_3a_default_video_binning \
     libchromatix_s5k3l6_ofilm_3a_hfr120_video \
     libchromatix_s5k3l6_ofilm_3a_hfr60_video \
     libchromatix_s5k3l6_ofilm_3a_hfr90_video \
     libchromatix_s5k3l6_ofilm_3a_special_16_9_preview \
     libchromatix_s5k3l6_ofilm_3a_special_preview \
-    libchromatix_s5k3l6_ofilm_3a_wechat_preview \
     libchromatix_s5k3l6_ofilm_3a_zsl_preview \
-    libchromatix_s5k3l6_ofilm_3a_zsl_preview_3264x2448 \
     libchromatix_s5k3l6_ofilm_3a_zsl_preview_engineer \
     libchromatix_s5k3l6_ofilm_3a_zsl_preview_faceunlock \
     libchromatix_s5k3l6_ofilm_3a_zsl_preview_fb \
-    libchromatix_s5k3l6_ofilm_3a_zsl_preview_full_portrait \
-    libchromatix_s5k3l6_ofilm_3a_zsl_preview_half_portrait \
     libchromatix_s5k3l6_ofilm_3a_zsl_preview_panorama \
     libchromatix_s5k3l6_ofilm_3a_zsl_preview_professional \
-    libchromatix_s5k3l6_ofilm_4k_video_cpp \
     libchromatix_s5k3l6_ofilm_VGA_video_cpp \
     libchromatix_s5k3l6_ofilm_common \
     libchromatix_s5k3l6_ofilm_common_engineer \
-    libchromatix_s5k3l6_ofilm_common_panorama \
     libchromatix_s5k3l6_ofilm_common_special \
-    libchromatix_s5k3l6_ofilm_common_video \
     libchromatix_s5k3l6_ofilm_common_zzhdr \
-    libchromatix_s5k3l6_ofilm_default_video_4ksize_cpp \
-    libchromatix_s5k3l6_ofilm_default_video_binning_cpp \
     libchromatix_s5k3l6_ofilm_hfr120_video_cpp \
     libchromatix_s5k3l6_ofilm_hfr60_video_cpp \
     libchromatix_s5k3l6_ofilm_hfr90_video_cpp \
     libchromatix_s5k3l6_ofilm_isp_1080p_video \
-    libchromatix_s5k3l6_ofilm_isp_4k_video \
     libchromatix_s5k3l6_ofilm_isp_VGA_video \
-    libchromatix_s5k3l6_ofilm_isp_default_binning \
-    libchromatix_s5k3l6_ofilm_isp_default_video_binning \
     libchromatix_s5k3l6_ofilm_isp_hfr120_video \
     libchromatix_s5k3l6_ofilm_isp_hfr60_video \
     libchromatix_s5k3l6_ofilm_isp_hfr90_video \
-    libchromatix_s5k3l6_ofilm_isp_snapshot_3264x2448 \
-    libchromatix_s5k3l6_ofilm_isp_snapshot_3264x2448_17021 \
-    libchromatix_s5k3l6_ofilm_isp_snapshot_half_portrait \
     libchromatix_s5k3l6_ofilm_isp_special_snapshot \
     libchromatix_s5k3l6_ofilm_isp_video_engineer \
-    libchromatix_s5k3l6_ofilm_isp_zsl_preview \
     libchromatix_s5k3l6_ofilm_isp_zsl_preview_professional \
-    libchromatix_s5k3l6_ofilm_isp_zsl_preview_professional_17021 \
     libchromatix_s5k3l6_ofilm_isp_zsl_snapshot \
-    libchromatix_s5k3l6_ofilm_isp_zsl_snapshot_17021 \
     libchromatix_s5k3l6_ofilm_isp_zsl_snapshot_faceunlock \
     libchromatix_s5k3l6_ofilm_isp_zsl_snapshot_fb \
     libchromatix_s5k3l6_ofilm_isp_zsl_snapshot_full_portrait \
     libchromatix_s5k3l6_ofilm_isp_zsl_snapshot_panorama \
     libchromatix_s5k3l6_ofilm_isp_zsl_snapshot_professional \
-    libchromatix_s5k3l6_ofilm_isp_zsl_snapshot_professional_17021 \
     libchromatix_s5k3l6_ofilm_postproc \
-    libchromatix_s5k3l6_ofilm_preview_1080p_cpp \
-    libchromatix_s5k3l6_ofilm_preview_420p_cpp \
-    libchromatix_s5k3l6_ofilm_preview_4ksize_cpp \
     libchromatix_s5k3l6_ofilm_preview_720p_cpp \
-    libchromatix_s5k3l6_ofilm_preview_binning_cpp \
     libchromatix_s5k3l6_ofilm_preview_cpp_engineer \
-    libchromatix_s5k3l6_ofilm_preview_wechat_cpp \
-    libchromatix_s5k3l6_ofilm_snapshot_1080p_cpp \
-    libchromatix_s5k3l6_ofilm_snapshot_binning_cpp \
     libchromatix_s5k3l6_ofilm_special_more_snapshot_1080p_cpp \
     libchromatix_s5k3l6_ofilm_special_more_snapshot_420p_cpp \
     libchromatix_s5k3l6_ofilm_special_more_snapshot_720p_cpp \
-    libchromatix_s5k3l6_ofilm_special_more_snapshot_cpp \
     libchromatix_s5k3l6_ofilm_special_more_snapshot_res1_1080p_cpp \
     libchromatix_s5k3l6_ofilm_special_more_snapshot_res1_420p_cpp \
     libchromatix_s5k3l6_ofilm_special_more_snapshot_res1_720p_cpp \
     libchromatix_s5k3l6_ofilm_special_snapshot_1080p_cpp \
     libchromatix_s5k3l6_ofilm_special_snapshot_420p_cpp \
     libchromatix_s5k3l6_ofilm_special_snapshot_720p_cpp \
-    libchromatix_s5k3l6_ofilm_special_snapshot_cpp \
     libchromatix_s5k3l6_ofilm_special_snapshot_res1_1080p_cpp \
     libchromatix_s5k3l6_ofilm_special_snapshot_res1_420p_cpp \
     libchromatix_s5k3l6_ofilm_special_snapshot_res1_720p_cpp \
     libchromatix_s5k3l6_ofilm_zoom_preview_cpp \
-    libchromatix_s5k3l6_ofilm_zoom_preview_cpp_17021 \
-    libchromatix_s5k3l6_ofilm_zsl_custom_3264x2448_cpp \
     libchromatix_s5k3l6_ofilm_zsl_custom_cpp \
     libchromatix_s5k3l6_ofilm_zsl_custom_cpp_full_portrait \
-    libchromatix_s5k3l6_ofilm_zsl_custom_cpp_half_portrait \
-    libchromatix_s5k3l6_ofilm_zsl_face_cpp \
     libchromatix_s5k3l6_ofilm_zsl_face_cpp_full_portrait \
-    libchromatix_s5k3l6_ofilm_zsl_face_cpp_half_portrait \
     libchromatix_s5k3l6_ofilm_zsl_flash_cpp \
     libchromatix_s5k3l6_ofilm_zsl_less_cpp \
-    libchromatix_s5k3l6_ofilm_zsl_preview_3264x2448_cpp \
     libchromatix_s5k3l6_ofilm_zsl_preview_cpp \
     libchromatix_s5k3l6_ofilm_zsl_preview_cpp_faceunlock \
     libchromatix_s5k3l6_ofilm_zsl_preview_cpp_fb \
     libchromatix_s5k3l6_ofilm_zsl_preview_cpp_full_portrait \
     libchromatix_s5k3l6_ofilm_zsl_preview_cpp_panorama \
     libchromatix_s5k3l6_ofilm_zsl_preview_professional_cpp \
-    libchromatix_s5k3l6_ofilm_zsl_snapshot_3264x2448_cpp \
     libchromatix_s5k3l6_ofilm_zsl_snapshot_cpp \
     libchromatix_s5k3l6_ofilm_zsl_snapshot_cpp_fb \
     libchromatix_s5k3l6_ofilm_zsl_snapshot_cpp_full_portrait \
-    libchromatix_s5k3l6_ofilm_zsl_snapshot_cpp_half_portrait \
     libchromatix_s5k3l6_ofilm_zsl_snapshot_cpp_hdr \
-    libchromatix_s5k3l6_ofilm_zsl_snapshot_cpp_hdr_face \
-    libchromatix_s5k3l6_ofilm_zsl_snapshot_cpp_panorama \
     libchromatix_s5k3l6_ofilm_zsl_snapshot_professional_cpp \
-    libchromatix_s5k3l6_ofilm_zsl_snapshot_professional_cpp_17021 \
     libchromatix_s5k3l6_ofilm_zsl_zoom_cpp \
-    libchromatix_s5k3l6_ofilm_zsl_zoom_cpp_17021 \
     libchromatix_s5k4h7_1080p_video_cpp \
     libchromatix_s5k4h7_3a_1080p_video \
-    libchromatix_s5k4h7_3a_4k_video \
-    libchromatix_s5k4h7_3a_4k_video_engineer \
-    libchromatix_s5k4h7_3a_VGA_video \
-    libchromatix_s5k4h7_3a_default_preview_4ksize \
-    libchromatix_s5k4h7_3a_default_preview_binning \
-    libchromatix_s5k4h7_3a_default_video_4ksize \
-    libchromatix_s5k4h7_3a_default_video_binning \
     libchromatix_s5k4h7_3a_hfr120_video \
-    libchromatix_s5k4h7_3a_hfr60_video \
-    libchromatix_s5k4h7_3a_hfr90_video \
-    libchromatix_s5k4h7_3a_special_16_9_preview \
     libchromatix_s5k4h7_3a_special_preview \
-    libchromatix_s5k4h7_3a_wechat_preview \
     libchromatix_s5k4h7_3a_zsl_preview \
-    libchromatix_s5k4h7_3a_zsl_preview_3264x2448 \
     libchromatix_s5k4h7_3a_zsl_preview_engineer \
     libchromatix_s5k4h7_3a_zsl_preview_faceunlock \
     libchromatix_s5k4h7_3a_zsl_preview_fb \
-    libchromatix_s5k4h7_3a_zsl_preview_full_portrait \
-    libchromatix_s5k4h7_3a_zsl_preview_half_portrait \
     libchromatix_s5k4h7_3a_zsl_preview_panorama \
     libchromatix_s5k4h7_3a_zsl_preview_professional \
-    libchromatix_s5k4h7_4k_video_cpp \
-    libchromatix_s5k4h7_VGA_video_cpp \
     libchromatix_s5k4h7_common \
     libchromatix_s5k4h7_common_engineer \
-    libchromatix_s5k4h7_common_panorama \
     libchromatix_s5k4h7_common_special \
-    libchromatix_s5k4h7_common_video \
     libchromatix_s5k4h7_common_zzhdr \
-    libchromatix_s5k4h7_default_video_4ksize_cpp \
-    libchromatix_s5k4h7_default_video_binning_cpp \
     libchromatix_s5k4h7_hfr120_video_cpp \
-    libchromatix_s5k4h7_hfr60_video_cpp \
-    libchromatix_s5k4h7_hfr90_video_cpp \
     libchromatix_s5k4h7_isp_1080p_video \
-    libchromatix_s5k4h7_isp_4k_video \
-    libchromatix_s5k4h7_isp_VGA_video \
-    libchromatix_s5k4h7_isp_default_binning \
-    libchromatix_s5k4h7_isp_default_video_binning \
     libchromatix_s5k4h7_isp_hfr120_video \
-    libchromatix_s5k4h7_isp_hfr60_video \
-    libchromatix_s5k4h7_isp_hfr90_video \
-    libchromatix_s5k4h7_isp_snapshot_3264x2448 \
-    libchromatix_s5k4h7_isp_snapshot_3264x2448_17021 \
-    libchromatix_s5k4h7_isp_snapshot_half_portrait \
     libchromatix_s5k4h7_isp_special_snapshot \
     libchromatix_s5k4h7_isp_special_snapshot_420p \
     libchromatix_s5k4h7_isp_video_engineer \
     libchromatix_s5k4h7_isp_zsl_preview \
     libchromatix_s5k4h7_isp_zsl_preview_professional \
-    libchromatix_s5k4h7_isp_zsl_preview_professional_17021 \
     libchromatix_s5k4h7_isp_zsl_snapshot \
-    libchromatix_s5k4h7_isp_zsl_snapshot_17021 \
     libchromatix_s5k4h7_isp_zsl_snapshot_faceunlock \
     libchromatix_s5k4h7_isp_zsl_snapshot_fb \
     libchromatix_s5k4h7_isp_zsl_snapshot_full_portrait \
     libchromatix_s5k4h7_isp_zsl_snapshot_panorama \
     libchromatix_s5k4h7_isp_zsl_snapshot_professional \
-    libchromatix_s5k4h7_isp_zsl_snapshot_professional_17021 \
     libchromatix_s5k4h7_postproc \
-    libchromatix_s5k4h7_preview_1080p_cpp \
-    libchromatix_s5k4h7_preview_420p_cpp \
-    libchromatix_s5k4h7_preview_4ksize_cpp \
-    libchromatix_s5k4h7_preview_720p_cpp \
-    libchromatix_s5k4h7_preview_binning_cpp \
     libchromatix_s5k4h7_preview_cpp_engineer \
-    libchromatix_s5k4h7_preview_wechat_cpp \
     libchromatix_s5k4h7_snapshot_1080p_cpp \
-    libchromatix_s5k4h7_snapshot_binning_cpp \
     libchromatix_s5k4h7_special_more_snapshot_1080p_cpp \
     libchromatix_s5k4h7_special_more_snapshot_420p_cpp \
     libchromatix_s5k4h7_special_more_snapshot_720p_cpp \
-    libchromatix_s5k4h7_special_more_snapshot_cpp \
-    libchromatix_s5k4h7_special_more_snapshot_res1_1080p_cpp \
-    libchromatix_s5k4h7_special_more_snapshot_res1_420p_cpp \
-    libchromatix_s5k4h7_special_more_snapshot_res1_720p_cpp \
     libchromatix_s5k4h7_special_snapshot_1080p_cpp \
     libchromatix_s5k4h7_special_snapshot_420p_cpp \
     libchromatix_s5k4h7_special_snapshot_720p_cpp \
-    libchromatix_s5k4h7_special_snapshot_cpp \
-    libchromatix_s5k4h7_special_snapshot_res1_1080p_cpp \
-    libchromatix_s5k4h7_special_snapshot_res1_420p_cpp \
-    libchromatix_s5k4h7_special_snapshot_res1_720p_cpp \
     libchromatix_s5k4h7_zoom_preview_cpp \
-    libchromatix_s5k4h7_zoom_preview_cpp_17021 \
-    libchromatix_s5k4h7_zsl_custom_3264x2448_cpp \
     libchromatix_s5k4h7_zsl_custom_cpp \
     libchromatix_s5k4h7_zsl_custom_cpp_full_portrait \
-    libchromatix_s5k4h7_zsl_custom_cpp_half_portrait \
-    libchromatix_s5k4h7_zsl_face_cpp \
     libchromatix_s5k4h7_zsl_face_cpp_full_portrait \
-    libchromatix_s5k4h7_zsl_face_cpp_half_portrait \
     libchromatix_s5k4h7_zsl_flash_cpp \
     libchromatix_s5k4h7_zsl_less_cpp \
-    libchromatix_s5k4h7_zsl_preview_3264x2448_cpp \
     libchromatix_s5k4h7_zsl_preview_cpp \
     libchromatix_s5k4h7_zsl_preview_cpp_faceunlock \
     libchromatix_s5k4h7_zsl_preview_cpp_fb \
     libchromatix_s5k4h7_zsl_preview_cpp_full_portrait \
     libchromatix_s5k4h7_zsl_preview_cpp_panorama \
     libchromatix_s5k4h7_zsl_preview_professional_cpp \
-    libchromatix_s5k4h7_zsl_snapshot_3264x2448_cpp \
     libchromatix_s5k4h7_zsl_snapshot_cpp \
     libchromatix_s5k4h7_zsl_snapshot_cpp_fb \
     libchromatix_s5k4h7_zsl_snapshot_cpp_full_portrait \
-    libchromatix_s5k4h7_zsl_snapshot_cpp_half_portrait \
     libchromatix_s5k4h7_zsl_snapshot_cpp_hdr \
-    libchromatix_s5k4h7_zsl_snapshot_cpp_hdr_face \
     libchromatix_s5k4h7_zsl_snapshot_cpp_panorama \
     libchromatix_s5k4h7_zsl_snapshot_professional_cpp \
-    libchromatix_s5k4h7_zsl_snapshot_professional_cpp_17021 \
     libchromatix_s5k4h7_zsl_zoom_cpp \
-    libchromatix_s5k4h7_zsl_zoom_cpp_17021 \
     libchromatix_s5kgm1_largan_2nd_4k_preview_3a \
     libchromatix_s5kgm1_largan_2nd_4k_video_3a \
     libchromatix_s5kgm1_largan_2nd_common \
@@ -1237,27 +833,17 @@ PRODUCT_PACKAGES += \
     libchromatix_s5kgm1_xinli_1080p_video_cpp \
     libchromatix_s5kgm1_xinli_3a_1080p_video \
     libchromatix_s5kgm1_xinli_3a_4k_video \
-    libchromatix_s5kgm1_xinli_3a_4k_video_engineer \
     libchromatix_s5kgm1_xinli_3a_default_preview \
-    libchromatix_s5kgm1_xinli_3a_default_preview_4ksize \
-    libchromatix_s5kgm1_xinli_3a_default_preview_binning \
-    libchromatix_s5kgm1_xinli_3a_default_video_4ksize \
-    libchromatix_s5kgm1_xinli_3a_default_video_binning \
     libchromatix_s5kgm1_xinli_3a_hfr120_video \
     libchromatix_s5kgm1_xinli_3a_hfr240_video \
     libchromatix_s5kgm1_xinli_3a_hfr60_video \
     libchromatix_s5kgm1_xinli_3a_hfr90_video \
-    libchromatix_s5kgm1_xinli_3a_special_16_9_preview \
-    libchromatix_s5kgm1_xinli_3a_special_preview \
     libchromatix_s5kgm1_xinli_3a_wechat_preview \
     libchromatix_s5kgm1_xinli_3a_zsl_preview \
-    libchromatix_s5kgm1_xinli_3a_zsl_preview_3264x2448 \
     libchromatix_s5kgm1_xinli_3a_zsl_preview_engineer \
     libchromatix_s5kgm1_xinli_3a_zsl_preview_full_portrait \
-    libchromatix_s5kgm1_xinli_3a_zsl_preview_half_portrait \
     libchromatix_s5kgm1_xinli_3a_zsl_preview_hdr \
     libchromatix_s5kgm1_xinli_3a_zsl_preview_panorama \
-    libchromatix_s5kgm1_xinli_3a_zsl_preview_portrait \
     libchromatix_s5kgm1_xinli_3a_zsl_preview_professional \
     libchromatix_s5kgm1_xinli_3a_zsl_preview_supernight \
     libchromatix_s5kgm1_xinli_4k_liveshot_cpp \
@@ -1269,36 +855,23 @@ PRODUCT_PACKAGES += \
     libchromatix_s5kgm1_xinli_common_engineer \
     libchromatix_s5kgm1_xinli_common_supernight \
     libchromatix_s5kgm1_xinli_common_video \
-    libchromatix_s5kgm1_xinli_default_video_4ksize_cpp \
-    libchromatix_s5kgm1_xinli_default_video_binning_cpp \
     libchromatix_s5kgm1_xinli_hfr120_video_cpp \
     libchromatix_s5kgm1_xinli_hfr240_video_cpp \
     libchromatix_s5kgm1_xinli_hfr60_video_cpp \
     libchromatix_s5kgm1_xinli_hfr90_video_cpp \
     libchromatix_s5kgm1_xinli_isp_1080p_video \
     libchromatix_s5kgm1_xinli_isp_4k_video \
-    libchromatix_s5kgm1_xinli_isp_default_binning \
-    libchromatix_s5kgm1_xinli_isp_default_video_binning \
     libchromatix_s5kgm1_xinli_isp_hfr120_video \
     libchromatix_s5kgm1_xinli_isp_hfr240_video \
     libchromatix_s5kgm1_xinli_isp_hfr60_video \
     libchromatix_s5kgm1_xinli_isp_hfr90_video \
-    libchromatix_s5kgm1_xinli_isp_snapshot_3264x2448 \
-    libchromatix_s5kgm1_xinli_isp_snapshot_3264x2448_17021 \
-    libchromatix_s5kgm1_xinli_isp_snapshot_half_portrait \
-    libchromatix_s5kgm1_xinli_isp_special_snapshot \
     libchromatix_s5kgm1_xinli_isp_video_engineer \
-    libchromatix_s5kgm1_xinli_isp_zsl_preview \
     libchromatix_s5kgm1_xinli_isp_zsl_preview_professional \
-    libchromatix_s5kgm1_xinli_isp_zsl_preview_professional_17021 \
     libchromatix_s5kgm1_xinli_isp_zsl_snapshot \
-    libchromatix_s5kgm1_xinli_isp_zsl_snapshot_17021 \
     libchromatix_s5kgm1_xinli_isp_zsl_snapshot_full_portrait \
     libchromatix_s5kgm1_xinli_isp_zsl_snapshot_hdr \
     libchromatix_s5kgm1_xinli_isp_zsl_snapshot_panorama \
-    libchromatix_s5kgm1_xinli_isp_zsl_snapshot_portrait \
     libchromatix_s5kgm1_xinli_isp_zsl_snapshot_professional \
-    libchromatix_s5kgm1_xinli_isp_zsl_snapshot_professional_17021 \
     libchromatix_s5kgm1_xinli_isp_zsl_snapshot_supernight \
     libchromatix_s5kgm1_xinli_other_liveshot_cpp \
     libchromatix_s5kgm1_xinli_postproc \
@@ -1306,54 +879,32 @@ PRODUCT_PACKAGES += \
     libchromatix_s5kgm1_xinli_preview_1080p_cpp \
     libchromatix_s5kgm1_xinli_preview_420p_16_9_cpp \
     libchromatix_s5kgm1_xinli_preview_420p_cpp \
-    libchromatix_s5kgm1_xinli_preview_4ksize_cpp \
     libchromatix_s5kgm1_xinli_preview_720p_16_9_cpp \
     libchromatix_s5kgm1_xinli_preview_720p_cpp \
-    libchromatix_s5kgm1_xinli_preview_binning_cpp \
     libchromatix_s5kgm1_xinli_preview_cpp_engineer \
-    libchromatix_s5kgm1_xinli_preview_wechat_cpp \
-    libchromatix_s5kgm1_xinli_snapshot_1080p_cpp \
-    libchromatix_s5kgm1_xinli_snapshot_binning_cpp \
-    libchromatix_s5kgm1_xinli_special_snapshot_cpp \
     libchromatix_s5kgm1_xinli_zoom_preview_cpp \
-    libchromatix_s5kgm1_xinli_zoom_preview_cpp_17021 \
-    libchromatix_s5kgm1_xinli_zsl_custom_3264x2448_cpp \
-    libchromatix_s5kgm1_xinli_zsl_custom_cpp \
     libchromatix_s5kgm1_xinli_zsl_custom_cpp_full_portrait \
-    libchromatix_s5kgm1_xinli_zsl_custom_cpp_half_portrait \
-    libchromatix_s5kgm1_xinli_zsl_custom_cpp_portrait \
     libchromatix_s5kgm1_xinli_zsl_face_cpp \
     libchromatix_s5kgm1_xinli_zsl_face_cpp_full_portrait \
-    libchromatix_s5kgm1_xinli_zsl_face_cpp_half_portrait \
-    libchromatix_s5kgm1_xinli_zsl_face_cpp_portrait \
     libchromatix_s5kgm1_xinli_zsl_face_cpp_supernight \
     libchromatix_s5kgm1_xinli_zsl_flash_cpp \
     libchromatix_s5kgm1_xinli_zsl_less_cpp \
     libchromatix_s5kgm1_xinli_zsl_multiframe_cpp \
     libchromatix_s5kgm1_xinli_zsl_multiframe_face_cpp \
-    libchromatix_s5kgm1_xinli_zsl_multiframe_face_cpp_portrait \
-    libchromatix_s5kgm1_xinli_zsl_preview_3264x2448_cpp \
     libchromatix_s5kgm1_xinli_zsl_preview_cpp \
     libchromatix_s5kgm1_xinli_zsl_preview_cpp_full_portrait \
     libchromatix_s5kgm1_xinli_zsl_preview_cpp_panorama \
-    libchromatix_s5kgm1_xinli_zsl_preview_cpp_portrait \
-    libchromatix_s5kgm1_xinli_zsl_preview_cpp_supernight \
     libchromatix_s5kgm1_xinli_zsl_preview_professional_cpp \
-    libchromatix_s5kgm1_xinli_zsl_snapshot_3264x2448_cpp \
     libchromatix_s5kgm1_xinli_zsl_snapshot_cpp \
     libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_full_portrait \
-    libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_half_portrait \
     libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_hdr \
     libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_hdr_face \
     libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_low_hdr \
     libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_low_hdr_face \
     libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_panorama \
-    libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_portrait \
     libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_supernight \
     libchromatix_s5kgm1_xinli_zsl_snapshot_professional_cpp \
-    libchromatix_s5kgm1_xinli_zsl_snapshot_professional_cpp_17021 \
     libchromatix_s5kgm1_xinli_zsl_zoom_cpp \
-    libchromatix_s5kgm1_xinli_zsl_zoom_cpp_17021 \
     libcvface_api \
     libdepthmap \
     libdepthmapwrapper \
@@ -1373,25 +924,29 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     libmmcamera2_c2d_module \
     libmmcamera2_cpp_module \
+    libmmcamera2_frame_algorithm \
     libmmcamera2_iface_modules \
     libmmcamera2_imglib_modules \
+    libmmcamera2_is \
     libmmcamera2_isp_modules \
     libmmcamera2_mct \
     libmmcamera2_mct_shimlayer \
     libmmcamera2_pp_buf_mgr \
     libmmcamera2_pproc_modules \
+    libmmcamera2_q3a_core \
     libmmcamera2_sensor_modules \
+    libmmcamera2_stats_algorithm \
+    libmmcamera2_stats_lib \
     libmmcamera2_stats_modules \
-    libmmcamera_atmel_at24c32e_eeprom \
     libmmcamera_bokeh \
-    libmmcamera_csidtg \
     libmmcamera_depth_map \
     libmmcamera_dummyalgo \
-    libmmcamera_dw9761b_2d_eeprom \
     libmmcamera_eebinparse \
     libmmcamera_eeprom_util \
     libmmcamera_eztune_module \
     libmmcamera_facedetection_lib \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
     libmmcamera_gc02m0_mono1 \
     libmmcamera_gc2375h \
     libmmcamera_gc2385 \
@@ -1405,10 +960,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_imx214 \
     libmmcamera_imx230 \
     libmmcamera_imx258 \
-    libmmcamera_imx258_gt24c16_eeprom \
-    libmmcamera_imx258_gt24c32_eeprom \
     libmmcamera_imx258_mono \
-    libmmcamera_imx258_mono_gt24c32_eeprom \
     libmmcamera_imx298 \
     libmmcamera_imx318 \
     libmmcamera_imx362 \
@@ -1463,14 +1015,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_isp_sce40 \
     libmmcamera_isp_snr47 \
     libmmcamera_isp_sub_module \
-    libmmcamera_le2464c_eeprom \
-    libmmcamera_le2464c_master_eeprom \
-    libmmcamera_m24c64s_eeprom \
-    libmmcamera_ofilm_ohs0443_ov12a10_eeprom \
     libmmcamera_ofilm_s5k3l6_eeprom \
-    libmmcamera_onsemi_cat24c16_eeprom \
-    libmmcamera_onsemi_cat24c32_eeprom \
-    libmmcamera_onsemi_cat24c32_imx362_eeprom \
     libmmcamera_ov02a1b \
     libmmcamera_ov12a10 \
     libmmcamera_ov8856 \
@@ -1482,35 +1027,19 @@ PRODUCT_PACKAGES += \
     libmmcamera_pdafcamif \
     libmmcamera_ppbase_module \
     libmmcamera_ppeiscore \
-    libmmcamera_qtech_f3l8yam_eeprom \
-    libmmcamera_qtech_f5670bq_eeprom \
     libmmcamera_qtech_imx386_eeprom \
     libmmcamera_qtech_ov12a10_eeprom \
     libmmcamera_quadracfa \
-    libmmcamera_rohm_brcg064gwz_3_eeprom \
     libmmcamera_s5k3l6_ofilm \
     libmmcamera_s5k4h7 \
     libmmcamera_s5kgm1_largan_2nd \
     libmmcamera_s5kgm1_qiutai_2nd_eeprom \
     libmmcamera_s5kgm1_xinli \
     libmmcamera_shinetech_ov8856_eeprom \
-    libmmcamera_sony_imx214_eeprom \
-    libmmcamera_sony_imx298_eeprom \
-    libmmcamera_sony_imx378_eeprom \
-    libmmcamera_sonyimx135_eeprom \
     libmmcamera_stillmore_lib \
-    libmmcamera_sunny_8865_eeprom \
-    libmmcamera_sunny_gt24c64_imx298_eeprom \
-    libmmcamera_sunny_gt24c64a_imx362_eeprom \
-    libmmcamera_sunny_gt24c64a_imx376_eeprom \
-    libmmcamera_sunny_gt24p64b_imx519_eeprom \
     libmmcamera_sunny_hi846_eeprom \
-    libmmcamera_sunny_q13v06k_eeprom \
-    libmmcamera_sunny_q5v41b_eeprom \
     libmmcamera_sw2d_lib \
     libmmcamera_thread_services \
-    libmmcamera_truly_cma481_eeprom \
-    libmmcamera_truly_cmb433_eeprom \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmcamera_xinli_s5kgm1_eeprom \
@@ -1519,12 +1048,14 @@ PRODUCT_PACKAGES += \
     libmmlib2d_interface \
     libmmqjpeg_codec \
     libmmqjpegdma \
+    libmpbase \
     libnnp \
     libocam_common \
     libois_bu63165 \
-    libois_lc898122 \
     liboppo_aisd \
+    liboppo_log_print \
     liboppo_platform_hwi \
+    liboppoalgolib \
     liboppocamalgo_daemon \
     libqcodec2 \
     libqomx_core \
@@ -1550,18 +1081,21 @@ PRODUCT_PACKAGES += \
     libsymphonypower \
     libthread_blur \
     libvideoutils \
-    libvppclient \
+    libasphere \
     libdiraceffect \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
     vendor.oppo.hardware.camera.oppoHalAssist@1.0 \
     android.frameworks.fingerprintservice@1.0 \
-    com.qualcomm.qti.imscmservice@1.0 \
-    com.qualcomm.qti.imscmservice@2.0_vendor \
-    com.qualcomm.qti.imscmservice@2.1_vendor \
-    com.qualcomm.qti.imscmservice@2.2_vendor \
-    com.qualcomm.qti.uceservice@2.0_vendor \
-    com.qualcomm.qti.uceservice@2.1_vendor \
-    com.qualcomm.qti.uceservice@2.2_vendor \
-    com.qualcomm.qti.uceservice@2.3_vendor \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
+    com.qualcomm.qti.imscmservice@2.0 \
+    com.qualcomm.qti.imscmservice@2.1 \
+    com.qualcomm.qti.imscmservice@2.2 \
+    com.qualcomm.qti.uceservice@2.0 \
+    com.qualcomm.qti.uceservice@2.1 \
+    com.qualcomm.qti.uceservice@2.2 \
+    com.qualcomm.qti.uceservice@2.3 \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
@@ -1571,7 +1105,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
+    vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
+    vendor.qti.hardware.sensorscalibrate@1.0-impl \
     lib-imscmservice \
     lib-imsdpl \
     lib-imsqimf \
@@ -1587,20 +1123,20 @@ PRODUCT_PACKAGES += \
     lib-uceservice \
     libGPreqcancel \
     libGPreqcancel_svc \
+    libQSEEComAPI \
     libRbsFlow \
-    libSecureUILib \
     libStDrvInt \
+    libadsp_default_listener \
     libaoa \
     libbtnv \
     libcacertclient \
     libcdfw \
     libcdfw_remote_api \
+    libcdsp_default_listener \
     libcne \
     libcneapiclient \
     libcneoplookup \
-    libcneqmiutils \
     libconfigdb \
-    libcpion \
     libdataitems \
     libdisp-aba \
     libdisplayqos \
@@ -1609,16 +1145,15 @@ PRODUCT_PACKAGES += \
     libdrmfs \
     libdrmtime \
     libdsi_netctrl \
+    libdsutils \
     libgarden \
     libgarden_haltests_e2e \
-    libgdtap \
-    libgnsspps \
     libhdr_tm \
+    libidl \
     libizat_client_api \
     libizat_core \
     libjnihelper \
     libkeymasterdeviceutils \
-    libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
     libloc_api_v02 \
@@ -1631,41 +1166,43 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
+    libmdmdetect \
     libminksocket \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
-    liboemaids_vendor \
     libops \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
     libpn553_fw \
+    libqcbor \
     libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
+    libqdi \
+    libqdp \
     libqisl \
+    libqmi \
+    libqmi_cci \
+    libqmi_client_helper \
+    libqmi_client_qmux \
+    libqmi_common_so \
+    libqmi_csi \
+    libqmi_encdec \
+    libqmiservices \
+    libqrtr \
     libqseed3 \
     libqsocket \
     libqtikeymaster4 \
     librcc \
     libril-qc-hal-qmi \
     libril-qc-logger \
-    libril-qc-ltedirectdisc \
-    libril-qc-radioconfig \
-    libril-qcril-hook-oem \
     librilqmiservices \
-    librmp \
     librpmb \
-    libscveCommon \
-    libscveCommon_stub \
-    libscveObjectSegmentation \
-    libscveObjectSegmentation_stub \
-    libscveObjectTracker \
-    libscveObjectTracker_stub \
     libsdedrm \
     libsdm-color \
     libsdm-colormgr-algo \
@@ -1674,15 +1211,20 @@ PRODUCT_PACKAGES += \
     libsdmextension \
     libsecureui \
     libsecureui_svcsock \
-    libsettings \
-    libsi \
-    libslimclient \
+    libsensorcal \
+    libsensorslog \
+    libsns_fastRPC_util \
+    libsns_low_lat_stream_stub \
+    libsnsapi \
+    libsnsdiaglog \
+    libsoc_helper \
+    libssc \
     libssd \
-    libsubsystem_control \
     libsystem_health_mon \
     libtime_genoff \
     libtinyxml2_1 \
-    libtrustedapploader \
+    libvpphvx \
+    libvpplibrary \
     libwms \
     libwqe \
     libwvhidl \
@@ -1692,18 +1234,20 @@ PRODUCT_PACKAGES += \
     qcrild_librilutils \
     qtibus \
     qtimutex \
+    sensors.ssc \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
     vendor.display.color@1.3 \
     vendor.display.postproc@1.0 \
     vendor.egistec.hardware.fingerprint@4.0 \
-    vendor.qti.data.factory@2.0_vendor \
-    vendor.qti.data.factory@2.1_vendor \
-    vendor.qti.data.factory@2.2_vendor \
-    vendor.qti.data.factory@2.3_vendor \
-    vendor.qti.data.mwqem@1.0_vendor \
-    vendor.qti.data.slm@1.0_vendor \
+    vendor.oppo.hardware.commondcs@1.0 \
+    vendor.qti.data.factory@2.0 \
+    vendor.qti.data.factory@2.1 \
+    vendor.qti.data.factory@2.2 \
+    vendor.qti.data.factory@2.3 \
+    vendor.qti.data.mwqem@1.0 \
+    vendor.qti.data.slm@1.0 \
     vendor.qti.gnss@1.0 \
     vendor.qti.gnss@1.1 \
     vendor.qti.gnss@1.2 \
@@ -1719,65 +1263,66 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.cacert@1.0 \
-    vendor.qti.hardware.data.cne.internal.api@1.0_vendor \
-    vendor.qti.hardware.data.cne.internal.constants@1.0_vendor \
-    vendor.qti.hardware.data.cne.internal.server@1.0_vendor \
-    vendor.qti.hardware.data.connection@1.0_vendor \
-    vendor.qti.hardware.data.connection@1.1_vendor \
-    vendor.qti.hardware.data.dynamicdds@1.0_vendor \
-    vendor.qti.hardware.data.dynamicdds@1.1_vendor \
-    vendor.qti.hardware.data.flow@1.0_vendor \
-    vendor.qti.hardware.data.iwlan@1.0_vendor \
-    vendor.qti.hardware.data.latency@1.0_vendor \
-    vendor.qti.hardware.data.lce@1.0_vendor \
-    vendor.qti.hardware.data.qmi@1.0_vendor \
+    vendor.qti.hardware.data.cne.internal.api@1.0 \
+    vendor.qti.hardware.data.cne.internal.constants@1.0 \
+    vendor.qti.hardware.data.cne.internal.server@1.0 \
+    vendor.qti.hardware.data.connection@1.0 \
+    vendor.qti.hardware.data.connection@1.1 \
+    vendor.qti.hardware.data.dynamicdds@1.0 \
+    vendor.qti.hardware.data.iwlan@1.0 \
+    vendor.qti.hardware.data.latency@1.0 \
+    vendor.qti.hardware.data.lce@1.0 \
+    vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
+    vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.radio.am@1.0_vendor \
-    vendor.qti.hardware.radio.ims@1.0_vendor \
-    vendor.qti.hardware.radio.ims@1.1_vendor \
-    vendor.qti.hardware.radio.ims@1.2_vendor \
-    vendor.qti.hardware.radio.ims@1.3_vendor \
-    vendor.qti.hardware.radio.ims@1.4_vendor \
-    vendor.qti.hardware.radio.ims@1.5_vendor \
-    vendor.qti.hardware.radio.ims@1.6_vendor \
-    vendor.qti.hardware.radio.ims@1.7_vendor \
-    vendor.qti.hardware.radio.ims@1.8_vendor \
+    vendor.qti.hardware.radio.am@1.0 \
+    vendor.qti.hardware.radio.ims@1.0 \
+    vendor.qti.hardware.radio.ims@1.1 \
+    vendor.qti.hardware.radio.ims@1.2 \
+    vendor.qti.hardware.radio.ims@1.3 \
+    vendor.qti.hardware.radio.ims@1.4 \
+    vendor.qti.hardware.radio.ims@1.5 \
+    vendor.qti.hardware.radio.ims@1.6 \
+    vendor.qti.hardware.radio.ims@1.7 \
     vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
-    vendor.qti.hardware.radio.lpa@1.0_vendor \
-    vendor.qti.hardware.radio.lpa@1.1_vendor \
-    vendor.qti.hardware.radio.lpa@1.2_vendor \
+    vendor.qti.hardware.radio.lpa@1.0 \
+    vendor.qti.hardware.radio.lpa@1.1 \
+    vendor.qti.hardware.radio.lpa@1.2 \
     vendor.qti.hardware.radio.qcrilhook@1.0 \
-    vendor.qti.hardware.radio.qtiradio@1.0_vendor \
-    vendor.qti.hardware.radio.qtiradio@2.0_vendor \
-    vendor.qti.hardware.radio.qtiradio@2.1_vendor \
-    vendor.qti.hardware.radio.qtiradio@2.2_vendor \
-    vendor.qti.hardware.radio.qtiradio@2.3_vendor \
-    vendor.qti.hardware.radio.qtiradio@2.4_vendor \
-    vendor.qti.hardware.radio.qtiradio@2.5_vendor \
-    vendor.qti.hardware.radio.qtiradio@2.6_vendor \
-    vendor.qti.hardware.radio.qtiradio@2.7_vendor \
-    vendor.qti.hardware.radio.uim@1.0_vendor \
-    vendor.qti.hardware.radio.uim@1.1_vendor \
-    vendor.qti.hardware.radio.uim@1.2_vendor \
-    vendor.qti.hardware.radio.uim_remote_client@1.0_vendor \
-    vendor.qti.hardware.radio.uim_remote_client@1.1_vendor \
-    vendor.qti.hardware.radio.uim_remote_client@1.2_vendor \
-    vendor.qti.hardware.radio.uim_remote_server@1.0_vendor \
-    vendor.qti.hardware.slmadapter@1.0_vendor \
+    vendor.qti.hardware.radio.qtiradio@1.0 \
+    vendor.qti.hardware.radio.qtiradio@2.0 \
+    vendor.qti.hardware.radio.qtiradio@2.1 \
+    vendor.qti.hardware.radio.qtiradio@2.2 \
+    vendor.qti.hardware.radio.qtiradio@2.3 \
+    vendor.qti.hardware.radio.qtiradio@2.4 \
+    vendor.qti.hardware.radio.qtiradio@2.5 \
+    vendor.qti.hardware.radio.qtiradio@2.6 \
+    vendor.qti.hardware.radio.qtiradio@2.7 \
+    vendor.qti.hardware.radio.uim@1.0 \
+    vendor.qti.hardware.radio.uim@1.1 \
+    vendor.qti.hardware.radio.uim@1.2 \
+    vendor.qti.hardware.radio.uim_remote_client@1.0 \
+    vendor.qti.hardware.radio.uim_remote_client@1.1 \
+    vendor.qti.hardware.radio.uim_remote_client@1.2 \
+    vendor.qti.hardware.radio.uim_remote_server@1.0 \
+    vendor.qti.hardware.sensorscalibrate@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
-    vendor.qti.ims.callcapability@1.0_vendor \
-    vendor.qti.ims.callinfo@1.0_vendor \
-    vendor.qti.ims.factory@1.0_vendor \
-    vendor.qti.ims.factory@1.1_vendor \
-    vendor.qti.ims.rcsconfig@1.0_vendor \
-    vendor.qti.ims.rcsconfig@1.1_vendor \
-    vendor.qti.ims.rcsconfig@2.0_vendor \
-    vendor.qti.ims.rcsconfig@2.1_vendor \
+    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.vpp@1.2 \
+    vendor.qti.hardware.vpp@1.3 \
+    vendor.qti.ims.callcapability@1.0 \
+    vendor.qti.ims.callinfo@1.0 \
+    vendor.qti.ims.factory@1.0 \
+    vendor.qti.ims.factory@1.1 \
+    vendor.qti.ims.rcsconfig@1.0 \
+    vendor.qti.ims.rcsconfig@1.1 \
+    vendor.qti.ims.rcsconfig@2.0 \
+    vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
-    vendor.qti.latency@2.0_vendor \
-    vendor.qti.latency@2.1_vendor \
+    vendor.qti.latency@2.0 \
+    vendor.qti.latency@2.1 \
     vendor_lib_rfsa_adsp_libVC1Dec_so \
     vendor_lib_rfsa_adsp_libVC1DecDsp_skel_so \
     vendor_lib_rfsa_adsp_libapps_mem_heap_so \
@@ -1795,163 +1340,25 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_libsns_device_mode_skel_so \
     vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so \
     com.qualcomm.qti.dpm.api@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.qualcomm.qti.uceservice@2.3 \
-    com.quicinc.cne.api@1.0 \
-    com.quicinc.cne.api@1.1 \
-    com.quicinc.cne.constants@1.0 \
-    com.quicinc.cne.constants@2.0 \
-    com.quicinc.cne.constants@2.1 \
-    com.quicinc.cne.server@1.0 \
-    com.quicinc.cne.server@2.0 \
-    com.quicinc.cne.server@2.1 \
-    com.quicinc.cne.server@2.2 \
     fm_helium \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
-    libdiag_system.qti \
     libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
     libdpmframework \
     libdpmtcm \
-    libembmsmmosal \
-    libembmsmmparser_lite \
-    libembmstinyxml \
     libfm-hci \
     libimscamera_jni \
     libimsmedia_jni \
     libmwqemiptablemgr \
-    libqmi_cci_system \
-    libqmi_encdec_system \
     vendor.qti.ImsRtpService-V1-ndk \
-    vendor.qti.data.factory@1.0 \
-    vendor.qti.data.factory@2.0 \
-    vendor.qti.data.factory@2.1 \
-    vendor.qti.data.factory@2.2 \
-    vendor.qti.data.factory@2.3 \
-    vendor.qti.data.factory@2.4 \
-    vendor.qti.data.factory@2.5 \
-    vendor.qti.data.factory@2.6 \
-    vendor.qti.data.factory@2.7 \
-    vendor.qti.data.factory@2.8 \
-    vendor.qti.data.factoryservice-V1-ndk \
-    vendor.qti.data.mwqem@1.0 \
-    vendor.qti.data.mwqemaidlservice-V1-ndk \
-    vendor.qti.data.slm@1.0 \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.cacertaidlservice-V1-ndk \
-    vendor.qti.hardware.data.cne.internal.api@1.0 \
-    vendor.qti.hardware.data.cne.internal.constants@1.0 \
-    vendor.qti.hardware.data.cne.internal.server@1.0 \
-    vendor.qti.hardware.data.cne.internal.server@1.1 \
-    vendor.qti.hardware.data.cne.internal.server@1.2 \
-    vendor.qti.hardware.data.cne.internal.server@1.3 \
-    vendor.qti.hardware.data.cneaidlservice.internal.api-V1-ndk \
-    vendor.qti.hardware.data.cneaidlservice.internal.constants-V1-ndk \
-    vendor.qti.hardware.data.cneaidlservice.internal.server-V1-ndk \
-    vendor.qti.hardware.data.connection@1.0 \
-    vendor.qti.hardware.data.connection@1.1 \
-    vendor.qti.hardware.data.connectionfactory-V1-ndk \
-    vendor.qti.hardware.data.dataactivity-V1-ndk \
-    vendor.qti.hardware.data.dynamicdds@1.0 \
-    vendor.qti.hardware.data.dynamicdds@1.1 \
-    vendor.qti.hardware.data.dynamicddsaidlservice-V1-ndk \
-    vendor.qti.hardware.data.flow@1.0 \
-    vendor.qti.hardware.data.flow@1.1 \
-    vendor.qti.hardware.data.flowaidlservice-V1-ndk \
-    vendor.qti.hardware.data.iwlan@1.0 \
-    vendor.qti.hardware.data.iwlan@1.1 \
-    vendor.qti.hardware.data.iwlandata-V1-ndk \
-    vendor.qti.hardware.data.ka-V1-ndk \
-    vendor.qti.hardware.data.latency@1.0 \
-    vendor.qti.hardware.data.lce@1.0 \
-    vendor.qti.hardware.data.lceaidlservice-V1-ndk \
-    vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.data.qmiaidlservice-V1-ndk \
-    vendor.qti.hardware.dpmaidlservice-V1-ndk \
-    vendor.qti.hardware.dpmservice@1.0 \
-    vendor.qti.hardware.dpmservice@1.1 \
-    vendor.qti.hardware.embmssl@1.0 \
-    vendor.qti.hardware.embmssl@1.1 \
-    vendor.qti.hardware.embmsslaidl-V2-ndk \
     vendor.qti.hardware.fm@1.0 \
-    vendor.qti.hardware.mwqemadapter@1.0 \
-    vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
-    vendor.qti.hardware.radio.am@1.0 \
-    vendor.qti.hardware.radio.ims@1.0 \
-    vendor.qti.hardware.radio.ims@1.1 \
-    vendor.qti.hardware.radio.ims@1.2 \
-    vendor.qti.hardware.radio.ims@1.3 \
-    vendor.qti.hardware.radio.ims@1.4 \
-    vendor.qti.hardware.radio.ims@1.5 \
-    vendor.qti.hardware.radio.ims@1.6 \
-    vendor.qti.hardware.radio.ims@1.7 \
-    vendor.qti.hardware.radio.ims@1.8 \
-    vendor.qti.hardware.radio.ims@1.9 \
-    vendor.qti.hardware.radio.lpa@1.0 \
-    vendor.qti.hardware.radio.lpa@1.1 \
-    vendor.qti.hardware.radio.lpa@1.2 \
-    vendor.qti.hardware.radio.lpa@1.3 \
-    vendor.qti.hardware.radio.qtiradio@1.0 \
-    vendor.qti.hardware.radio.qtiradio@2.0 \
-    vendor.qti.hardware.radio.qtiradio@2.1 \
-    vendor.qti.hardware.radio.qtiradio@2.2 \
-    vendor.qti.hardware.radio.qtiradio@2.3 \
-    vendor.qti.hardware.radio.qtiradio@2.4 \
-    vendor.qti.hardware.radio.qtiradio@2.5 \
-    vendor.qti.hardware.radio.qtiradio@2.6 \
-    vendor.qti.hardware.radio.qtiradio@2.7 \
-    vendor.qti.hardware.radio.uim@1.0 \
-    vendor.qti.hardware.radio.uim@1.1 \
-    vendor.qti.hardware.radio.uim@1.2 \
-    vendor.qti.hardware.radio.uim_remote_client@1.0 \
-    vendor.qti.hardware.radio.uim_remote_client@1.1 \
-    vendor.qti.hardware.radio.uim_remote_client@1.2 \
-    vendor.qti.hardware.radio.uim_remote_server@1.0 \
-    vendor.qti.hardware.slmadapter@1.0 \
-    vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callcapabilityaidlservice-V1-ndk \
-    vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.configaidlservice-V1-ndk \
-    vendor.qti.ims.configservice@1.0 \
-    vendor.qti.ims.configservice@1.1 \
-    vendor.qti.ims.connection@1.0 \
-    vendor.qti.ims.connectionaidlservice-V1-ndk \
-    vendor.qti.ims.datachannelservice-V1-ndk \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.factory@2.0 \
-    vendor.qti.ims.factory@2.1 \
-    vendor.qti.ims.factory@2.2 \
-    vendor.qti.ims.factoryaidlservice-V1-ndk \
-    vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
-    vendor.qti.ims.rcssip@1.0 \
-    vendor.qti.ims.rcssip@1.1 \
-    vendor.qti.ims.rcssip@1.2 \
-    vendor.qti.ims.rcssipaidlservice-V1-ndk \
-    vendor.qti.ims.rcsuce@1.0 \
-    vendor.qti.ims.rcsuce@1.1 \
-    vendor.qti.ims.rcsuce@1.2 \
-    vendor.qti.ims.rcsuceaidlservice-V1-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
-    vendor.qti.latency@2.0 \
-    vendor.qti.latency@2.1 \
-    vendor.qti.latency@2.2 \
-    vendor.qti.latency@2.3 \
-    vendor.qti.latencyaidlservice-V1-ndk \
-    vendor.qti.mstatservice@1.0 \
     CACertService \
     CneApp \
     IWlanService \
@@ -1963,93 +1370,21 @@ PRODUCT_PACKAGES += \
     uceShimService \
     dpmserviceapp \
     ims \
-    tcmclient \
     audiosphere \
     com.qti.dpmframework \
     com.qualcomm.qti.imscmservice-V2.0-java \
     com.qualcomm.qti.imscmservice-V2.1-java \
     com.qualcomm.qti.imscmservice-V2.2-java \
-    com.qualcomm.qti.uceservice-V2.0-java \
-    com.qualcomm.qti.uceservice-V2.1-java \
-    com.qualcomm.qti.uceservice-V2.2-java \
-    com.qualcomm.qti.uceservice-V2.3-java \
-    com.quicinc.cne.api-V1.0-java \
-    com.quicinc.cne.api-V1.1-java \
-    com.quicinc.cne.constants-V1.0-java \
-    com.quicinc.cne.constants-V2.0-java \
-    com.quicinc.cne.constants-V2.1-java \
     datachannellib \
     dpmapi \
     qcrilhook \
     qti-telephony-common \
-    vendor.qti.data.factory-V1.0-java \
-    vendor.qti.data.factory-V2.0-java \
-    vendor.qti.data.factory-V2.1-java \
-    vendor.qti.data.factory-V2.2-java \
-    vendor.qti.data.factory-V2.3-java \
-    vendor.qti.data.factory-V2.4-java \
-    vendor.qti.data.factory-V2.5-java \
-    vendor.qti.data.factory-V2.6-java \
-    vendor.qti.data.factory-V2.7-java \
-    vendor.qti.data.factory-V2.8-java \
-    vendor.qti.data.factoryservice-V1-java \
-    vendor.qti.data.mwqem-V1.0-java \
-    vendor.qti.data.mwqemaidlservice-V1-java \
-    vendor.qti.data.slm-V1.0-java \
-    vendor.qti.hardware.cacertaidlservice-V1-java \
-    vendor.qti.hardware.data.cne.internal.api-V1.0-java \
-    vendor.qti.hardware.data.cne.internal.constants-V1.0-java \
-    vendor.qti.hardware.data.cne.internal.server-V1.0-java \
-    vendor.qti.hardware.data.cne.internal.server-V1.1-java \
-    vendor.qti.hardware.data.cne.internal.server-V1.2-java \
-    vendor.qti.hardware.data.cne.internal.server-V1.3-java \
-    vendor.qti.hardware.data.cneaidlservice.internal.api-V1-java \
-    vendor.qti.hardware.data.cneaidlservice.internal.constants-V1-java \
-    vendor.qti.hardware.data.cneaidlservice.internal.server-V1-java \
-    vendor.qti.hardware.data.connection-V1.0-java \
-    vendor.qti.hardware.data.connection-V1.1-java \
-    vendor.qti.hardware.data.connectionfactory-V1-java \
-    vendor.qti.hardware.data.dataactivity-V1-java \
-    vendor.qti.hardware.data.dynamicdds-V1.0-java \
-    vendor.qti.hardware.data.dynamicdds-V1.1-java \
-    vendor.qti.hardware.data.dynamicddsaidlservice-V1-java \
-    vendor.qti.hardware.data.flow-V1.0-java \
-    vendor.qti.hardware.data.flow-V1.1-java \
-    vendor.qti.hardware.data.flowaidlservice-V1-java \
-    vendor.qti.hardware.data.iwlan-V1.0-java \
-    vendor.qti.hardware.data.iwlan-V1.1-java \
-    vendor.qti.hardware.data.iwlandata-V1-java \
-    vendor.qti.hardware.data.ka-V1-java \
-    vendor.qti.hardware.data.latency-V1.0-java \
-    vendor.qti.hardware.data.lce-V1.0-java \
-    vendor.qti.hardware.data.lceaidlservice-V1-java \
-    vendor.qti.hardware.data.qmi-V1.0-java \
-    vendor.qti.hardware.data.qmiaidlservice-V1-java \
-    vendor.qti.hardware.dpmaidlservice-V1-java \
-    vendor.qti.hardware.dpmservice-V1.0-java \
-    vendor.qti.hardware.dpmservice-V1.1-java \
-    vendor.qti.hardware.mwqemadapter-V1.0-java \
-    vendor.qti.hardware.mwqemadapteraidlservice-V1-java \
-    vendor.qti.hardware.slmadapter-V1.0-java \
-    vendor.qti.ims.callcapability-V1.0-java \
-    vendor.qti.ims.callcapabilityaidlservice-V1-java \
-    vendor.qti.ims.callinfo-V1.0-java \
-    vendor.qti.ims.configaidlservice-V1-java \
-    vendor.qti.ims.configservice-V1.0-java \
-    vendor.qti.ims.configservice-V1.1-java \
     vendor.qti.ims.connection-V1.0-java \
     vendor.qti.ims.connectionaidlservice-V1-java \
-    vendor.qti.ims.datachannelservice-V1-java \
-    vendor.qti.ims.factory-V1.0-java \
-    vendor.qti.ims.factory-V1.1-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
     vendor.qti.ims.factory-V2.2-java \
     vendor.qti.ims.factoryaidlservice-V1-java \
-    vendor.qti.ims.rcsconfig-V1.0-java \
-    vendor.qti.ims.rcsconfig-V1.1-java \
-    vendor.qti.ims.rcsconfig-V2.0-java \
-    vendor.qti.ims.rcsconfig-V2.1-java \
     vendor.qti.ims.rcssip-V1.0-java \
     vendor.qti.ims.rcssip-V1.1-java \
     vendor.qti.ims.rcssip-V1.2-java \
@@ -2058,10 +1393,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
-    vendor.qti.latency-V2.0-java \
-    vendor.qti.latency-V2.1-java \
-    vendor.qti.latency-V2.2-java \
-    vendor.qti.latencyaidlservice-V1-java \
     android.hardware.keymaster@4.1-service-default-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.qti.gnss@4.3-service.xml \
@@ -2097,7 +1428,6 @@ PRODUCT_PACKAGES += \
     irsc_util \
     loc_launcher \
     lowi-server \
-    mm-qcamera-app \
     netmgrd \
     oppoalgo_daemon \
     pd-mapper \
@@ -2105,8 +1435,6 @@ PRODUCT_PACKAGES += \
     pm-service \
     port-bridge \
     power_off_alarm \
-    qrtr-cfg \
-    qrtr-lookup \
     qrtr-ns \
     qseecomd \
     qti \
