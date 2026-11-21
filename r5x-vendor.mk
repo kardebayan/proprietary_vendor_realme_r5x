@@ -1359,6 +1359,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
+    OppoCamera \
     CACertService \
     CneApp \
     IWlanService \

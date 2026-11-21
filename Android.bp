@@ -1716,6 +1716,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/hw/camera.trinket.so",
             ],
             shared_libs: [
+                "libcamera_reprocess_shim",
                 "liblog",
                 "libhardware",
                 "libutils",
@@ -30272,6 +30273,16 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+}
+
+android_app_import {
+    name: "OppoCamera",
+    owner: "realme",
+    apk: "proprietary/system/app/OppoCamera/OppoCamera.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
 }
 
 android_app_import {
